@@ -19,7 +19,6 @@ const Bill = () => {
     { field: 'total', headerName: 'Total (VND)', width: 150 },
   ];
 
-  
   return (
     <div style={{fontFamily:'Time new Romance'}} className="dashboard-container">
       <Navbar />
