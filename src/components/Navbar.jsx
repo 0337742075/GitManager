@@ -31,7 +31,6 @@ function Navbar() {
             Trang chủ
           </a>
         </li>
-       
         {localStorage.getItem('role') && localStorage.getItem('role')=='manager' && (
           <>
            <li className="nav-item">
